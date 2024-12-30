@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComPortsDesctop", "ComPortsDesctop.csproj", "{454CFFDA-D6F5-4E0F-B914-7498E11DC7A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComPortsDesctop", "ComPortsDesctop.csproj", "{30A4F9C2-B0C3-46C0-83FC-07E5B35B92FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{454CFFDA-D6F5-4E0F-B914-7498E11DC7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{454CFFDA-D6F5-4E0F-B914-7498E11DC7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{454CFFDA-D6F5-4E0F-B914-7498E11DC7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{454CFFDA-D6F5-4E0F-B914-7498E11DC7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A4F9C2-B0C3-46C0-83FC-07E5B35B92FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A4F9C2-B0C3-46C0-83FC-07E5B35B92FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A4F9C2-B0C3-46C0-83FC-07E5B35B92FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A4F9C2-B0C3-46C0-83FC-07E5B35B92FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AB3B98DC-D37B-4A07-91F1-DF715F43CC9F}
+		SolutionGuid = {69195018-5DFE-47AC-ADC0-8796E87FFC2A}
 	EndGlobalSection
 EndGlobal

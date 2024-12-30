@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Проекты\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj": {}
+    "J:\\C#\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj": {}
   },
   "projects": {
-    "Q:\\Проекты\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj": {
+    "J:\\C#\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Проекты\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj",
+        "projectUniqueName": "J:\\C#\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj",
         "projectName": "ComPortsDesctop",
-        "projectPath": "Q:\\Проекты\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj",
+        "projectPath": "J:\\C#\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj",
         "packagesPath": "C:\\Users\\popov\\.nuget\\packages\\",
-        "outputPath": "Q:\\Проекты\\Test_Desctop_Application_COMports\\ComPortsDesctop\\obj\\",
+        "outputPath": "J:\\C#\\Test_Desctop_Application_COMports\\ComPortsDesctop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "Q:\\Developer\\Visual Studio\\SDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\popov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

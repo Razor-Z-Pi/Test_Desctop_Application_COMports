@@ -14,7 +14,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\popov\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\popov\\.nuget\\packages",
-      "Q:\\Developer\\Visual Studio\\SDK\\NuGetPackages"
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

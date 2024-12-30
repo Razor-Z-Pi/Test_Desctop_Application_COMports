@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kyL5NmgsT24=",
+  "dgSpecHash": "nQd6O/4z0AnFWbZ8BxUtSHEJWaIcVhjqA0/pl5lbJQcAdiwoePfZ3bWTMnR00SDSCO1POqb/ClIrDdVXJktHIw==",
   "success": true,
-  "projectFilePath": "Q:\\Проекты\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj",
+  "projectFilePath": "J:\\C#\\Test_Desctop_Application_COMports\\ComPortsDesctop\\ComPortsDesctop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\popov\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.0\\runtime.android-arm.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
     "C:\\Users\\popov\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.android-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",

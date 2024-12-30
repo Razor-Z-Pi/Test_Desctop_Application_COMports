@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ComPortsDesctop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="TesterCOMports" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -20,37 +20,41 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Сканировать COM порты" HorizontalAlignment="Center" VerticalAlignment="Top"  Margin="10" x:Name="ScanComPorts" Click="ScanComPorts_Click">
-            </Button>
-            <ListBox x:Name="ComPortsList" HorizontalAlignment="Center" VerticalAlignment="Bottom" MouseDoubleClick="ComPortsList_MouseDoubleClick" Width="150"  Height="50"/>
-
-            <ProgressBar Visibility="Collapsed" x:Name="progress" Foreground="#044E87" IsIndeterminate="True" HorizontalAlignment="Center" Height="30" Width="350" VerticalAlignment="Center" />
-            <TextBlock Visibility="Collapsed" x:Name="MessageProggres" Text="{Binding SomeValue}" TextAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <StackPanel Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock>Напиши номер порта COM</TextBlock>
+            <TextBox x:Name="ComInputName"></TextBox>
+            <Button x:Name="ComName" Click="ComName_Click">Записать</Button>
         </StackPanel>
 
-        <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock x:Name="Aplication_Response" Text="{Binding SomeValue}" Margin="0 0 0 5"></TextBlock>
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock>Напиши количество устройст для проверки COM-устройства</TextBlock>
+            <TextBox x:Name="ComDevices" TextAlignment="Center">1</TextBox>
+            <Button x:Name="NumberDevics" Click="NumberDevics_Click">Записать</Button>
         </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical">
-            <TextBlock x:Name="MsPush" Margin="0 0 0 5">Отпарвленно: </TextBlock>
-            <TextBlock x:Name="MsReturn">Полученно: </TextBlock>
-            <TextBlock x:Name="Point"></TextBlock>
+        <StackPanel Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock>Сообщение для отправки</TextBlock>
+            <TextBox x:Name="ComMessage"></TextBox>
+            <Button x:Name="ComBtnMessage" Click="ComBtnMessage_Click">Записать</Button>
         </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Vertical">
-            <Button Height="50" Margin="0 0 0 5" x:Name="Color_Quer" Click="Color_Quer_Click">Отправлять запросы c цветами</Button>
-            <Button Height="50" x:Name="Points" Click="Points_Click">Отправлять запросы c очками</Button>
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                <TextBlock>Номер Com:</TextBlock>
+                <TextBlock x:Name="NumberComSave"></TextBlock>
+            </StackPanel>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                <TextBlock>Устройств:</TextBlock>
+                <TextBlock x:Name="DevicesSave">1</TextBlock>
+            </StackPanel>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                <TextBlock>Сообщение для отправки:</TextBlock>
+                <TextBlock x:Name="MessageSave"></TextBlock>
+            </StackPanel>
         </StackPanel>
 
-        <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Vertical">
-            <Button Height="50" Margin="0 0 0 5" x:Name="Stop_color" Click="Stop_color_Click">Стоп цвета</Button>
-            <Button Height="50" x:Name="Stop_point" Click="Stop_point_Click">Стоп очки</Button>
-        </StackPanel>
-
-        <StackPanel Grid.Column="2" Grid.Row="3" Orientation="Vertical">
-            <Button Height="50" Margin="0 0 0 5" x:Name="ListId" Click="ListId_Click">Список устройств</Button>
-        </StackPanel>
+        <Button Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="False" x:Name="Start" Click="Start_Click">Запуск</Button>
     </Grid>
 </Window>
